@@ -1,0 +1,166 @@
+body {
+    background-color: #AED2FF;
+    margin: 0;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 40px;
+    color: #424874;
+    font-family: 'Satisfy', cursive;
+    font-size: 5rem;
+}
+
+h3 {
+    margin: 0;
+    width: 70%;
+    padding: 10px 15% 30px;
+    color: #4942E4;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+hr {
+    border: none;
+    border-top: dotted;
+    border-color: #FAF7F0;
+    width: 10%;
+    border-width: 8px;
+    margin: 30px auto;
+}
+
+a {
+    display: inline-block;
+    color: #3876BF;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 0 80px 10px;
+}
+
+p {
+    color: #6F61C0;
+    width: 70%;
+    padding: 0 15%;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.top-container {
+    background-color: #D2DAFF;
+    padding: 100px;
+    padding-top: 280px;
+    position: relative;
+}
+
+.middle-container {
+    background-color: #BCCEF8;
+    padding: 50px;
+}
+
+.bottom-container {
+    background-color: #AAC4FF;
+    padding: 20px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 150px;
+    top: 130px;
+    width: 20%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 130px;
+    top: 440px;
+    width: 20%;
+}
+
+.mountain {
+    margin-top: 140px;
+}
+
+.profile {
+    padding: 80px;
+}
+
+.skills {
+    padding: 60px;
+}
+
+.skill-row {
+    padding: 60px;
+    text-align: left;
+}
+
+.contact-me  {
+    padding: 60px;
+}
+
+.btn {
+    font-family: 'Mohave', sans-serif;
+    font-size: 2rem;
+    padding: 5px 15px;
+    margin-top: 60px;
+    background: #D2E0FB;
+    border: 2px solid #3876BF;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: #3876BF;
+    color: #D2E0FB;
+}
+
+#title-name {
+    font-family: 'Lobster', sans-serif;
+    font-size: 6rem;
+    color: #7286D3;
+}
+
+#title-job {
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    color: #8EA7E9;
+}
+
+#profile-img {
+    width: 25%;
+    padding-bottom: 30px;
+}
+
+#coding-img {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+#law-img {
+    width: 25%;
+    float: right;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+#knitting-img {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+#footer-copyright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
