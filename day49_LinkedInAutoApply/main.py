@@ -30,7 +30,7 @@ def save_jobs():
     global saved
     time.sleep(6)
     jobs = driver.find_elements(By.CSS_SELECTOR, "ul.scaffold-layout__list-container > li")
-    for job in jobs[::20]:
+    for job in jobs:
         job.click()
         time.sleep(3)
         save = driver.find_element(By.CSS_SELECTOR, "div.job-details-jobs-unified-top-card__content--two-pane > div:nth-child(4) > div.display-flex > button")
