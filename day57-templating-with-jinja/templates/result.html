@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess</title>
+</head>
+<body>
+    <h1>Hey {{ name }},</h1>
+    <h2>I think you are {{ gender }},</h2>
+    <h3>And maybe {{ age }} years old.</h3>
+    <a href="{{ url_for('guess') }}">Guess Again!</a><br>
+    <a href="{{ url_for('home') }}">Back To Home</a>
+</body>
+</html>
